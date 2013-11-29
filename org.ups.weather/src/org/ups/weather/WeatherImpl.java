@@ -1,6 +1,8 @@
 package org.ups.weather;
 
-public class WeatherImpl implements IWeather {
+import org.ups.location.ILocationListener;
+
+public class WeatherImpl implements IWeather, ILocationListener {
 
 	public void addListener(IWeatherListener listener) {
 		// TODO Auto-generated method stub
@@ -18,6 +20,11 @@ public class WeatherImpl implements IWeather {
 
 	public WeatherType getWeather(int nbHoursFromNow) {
 		return WeatherType.CLOUDY;
+	}
+
+	public void locationChanged(float lan, float lon) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
