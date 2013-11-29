@@ -12,6 +12,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Applications/eclipseRCP/plugins/org.eclipse.osgi_3.9.1.v20130814-1242.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
