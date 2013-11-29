@@ -13,13 +13,11 @@ public class WeatherImpl implements IWeather {
 	}
 
 	public WeatherType getCurrentWeather() {
-		// TODO Auto-generated method stub
-		return null;
+		return WeatherType.SHINY;
 	}
 
 	public WeatherType getWeather(int nbHoursFromNow) {
-		// TODO Auto-generated method stub
-		return null;
+		return WeatherType.CLOUDY;
 	}
 
 }
