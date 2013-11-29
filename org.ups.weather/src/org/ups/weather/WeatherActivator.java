@@ -7,7 +7,6 @@ public class WeatherActivator implements BundleActivator {
 
 	public void start(BundleContext context) throws Exception {
 		context.registerService(IWeather.class.getName(), new WeatherImpl(), null);
-		
 	}
 
 	public void stop(BundleContext context) throws Exception {

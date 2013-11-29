@@ -5,3 +5,8 @@ Bundle-SymbolicName: org.ups.dressingengine
 Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Bundle-Vendor: UPS
+Import-Package: org.osgi.framework;version="1.7.0"
+Require-Bundle: org.ups.location,
+ org.ups.weather
+Bundle-Activator: org.ups.dressingengine.DressEngineActivator
+Bundle-ActivationPolicy: lazy
